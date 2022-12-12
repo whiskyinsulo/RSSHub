@@ -623,27 +623,6 @@
       }
     ]
   },
-  "ecnu.edu.cn": {
-    "_name": "ACM-ECNU",
-    "acm": [
-      {
-        "title": "所有比赛列表",
-        "docs": "https://docs.rsshub.app/programming.html#ACM-ECNU",
-        "source": [
-          "/contest/"
-        ],
-        "target": "/acm-ecnu/contest/"
-      },
-      {
-        "title": "仅公开比赛列表",
-        "docs": "https://docs.rsshub.app/programming.html#ACM-ECNU",
-        "source": [
-          "/contest/"
-        ],
-        "target": "/acm-ecnu/contest/public"
-      }
-    ]
-  },
   "acs.org": {
     "_name": "American Chemistry Society",
     "pubs": [
@@ -710,12 +689,25 @@
       }
     ]
   },
+  "github.io": {
+    "_name": "GitHub",
+    "agorahub": [
+      {
+        "title": "共和報",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
+        "source": [
+          "/pen0"
+        ],
+        "target": "/agora0/pen0"
+      }
+    ]
+  },
   "gitlab.io": {
     "_name": "GitLab",
     "agora0": [
       {
         "title": "零博客",
-        "docs": "https://docs.rsshub.app/blog.html#ling-bo-ke-fen-lei",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
         "source": [
           "/blog/:category",
           "/"
@@ -770,6 +762,20 @@
           "/"
         ],
         "target": "/aicaijing/information/:id?"
+      }
+    ]
+  },
+  "aiea.org": {
+    "_name": "Asian Innovation and Entrepreneurship Association",
+    "www": [
+      {
+        "title": "Seminar Series",
+        "docs": "https://docs.rsshub.app/study.html#AIEA-Seminar-Series",
+        "source": [
+          "/0504",
+          "/"
+        ],
+        "target": "/aiea/seminars/upcoming"
       }
     ]
   },
@@ -2318,6 +2324,20 @@
       }
     ]
   },
+  "caijing.com.cn": {
+    "_name": "财经网",
+    "roll": [
+      {
+        "title": "滚动新闻",
+        "docs": "https://docs.rsshub.app/finance.html#cai-jing-wang",
+        "source": [
+          "/index1.html",
+          "/"
+        ],
+        "target": "/caijing/roll"
+      }
+    ]
+  },
   "cankaoxiaoxi.com": {
     "_name": "参考消息",
     "china": [
@@ -2589,6 +2609,20 @@
           "/Article/List",
           "/"
         ]
+      }
+    ]
+  },
+  "cdzjryb.com": {
+    "_name": "成都住建蓉 e 办",
+    "zw": [
+      {
+        "title": "商品住房购房登记",
+        "docs": "https://docs.rsshub.app/other.html#cheng-dou-zhu-jian-rong-e-ban",
+        "source": [
+          "/lottery/accept/projectList",
+          "/"
+        ],
+        "target": "/cdzjryb/zw/projectList"
       }
     ]
   },
@@ -3060,6 +3094,16 @@
         ],
         "target": "/cnki/journals/debut/:name"
       }
+    ],
+    "kns": [
+      {
+        "title": "作者期刊文献",
+        "docs": "https://docs.rsshub.app/journal.html#zhong-guo-zhi-wang-zuo-zhe-qi-kan-wen-xian",
+        "source": [
+          "/kcms/detail/knetsearch.aspx",
+          "/"
+        ]
+      }
     ]
   },
   "cntheory.com": {
@@ -3330,6 +3374,17 @@
         "docs": "https://docs.rsshub.app/university.html#zhong-guo-chuan-mei-da-xue",
         "source": "/*",
         "target": "/"
+      }
+    ]
+  },
+  "curius.app": {
+    "_name": "Curius",
+    ".": [
+      {
+        "title": "用户",
+        "docs": "https://docs.rsshub.app/social-media.html#curius",
+        "source": "/:name",
+        "target": "/curius/links/:name"
       }
     ]
   },
@@ -4346,6 +4401,43 @@
       }
     ]
   },
+  "ecnu.edu.cn": {
+    "_name": "华东师范大学",
+    "acm": [
+      {
+        "title": "所有比赛列表",
+        "docs": "https://docs.rsshub.app/university.html#hua-dong-shi-fan-da-xue",
+        "source": [
+          "/contest/",
+          "/"
+        ],
+        "target": "/ecnu/acm/contest/"
+      },
+      {
+        "title": "仅公开比赛列表",
+        "docs": "https://docs.rsshub.app/university.html#hua-dong-shi-fan-da-xue",
+        "source": [
+          "/contest/",
+          "/"
+        ],
+        "target": "/ecnu/acm/contest/public"
+      }
+    ]
+  },
+  "kaoyan.com": {
+    "_name": "华东师范大学",
+    "yz": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/university.html#hua-dong-shi-fan-da-xue",
+        "source": [
+          "/ecnu/tiaoji",
+          "/"
+        ],
+        "target": "/ecnu/yjs"
+      }
+    ]
+  },
   "economist.com": {
     "_name": "The Economist",
     ".": [
@@ -5028,6 +5120,19 @@
       }
     ]
   },
+  "foreverblog.cn": {
+    "_name": "十年之约",
+    "www": [
+      {
+        "title": "专题展示",
+        "docs": "https://docs.rsshub.app/blog.html#shi-nian-zhi-yue",
+        "source": [
+          "/feeds.html"
+        ],
+        "target": "/foreverblog/feeds"
+      }
+    ]
+  },
   "fortunechina.com": {
     "_name": "财富中文网",
     ".": [
@@ -5051,6 +5156,19 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "freewechat.com": {
+    "_name": "自由微信",
+    ".": [
+      {
+        "title": "公众号",
+        "docs": "https://docs.rsshub.app/new-media.html#zi-you-wei-xin",
+        "source": [
+          "/profile/:id"
+        ],
+        "target": "/freewechat/profile/:id"
       }
     ]
   },
@@ -5751,6 +5869,19 @@
       }
     ]
   },
+  "changsha.gov.cn": {
+    "_name": "湖南省人民政府",
+    "wlwz": [
+      {
+        "title": "市长信箱",
+        "docs": "https://docs.rsshub.app/government.html#hu-nan-sheng-ren-min-zheng-fu",
+        "source": [
+          "/webapp/cs2020/email/*"
+        ],
+        "target": "/gov/hunan/changsha/major-email"
+      }
+    ]
+  },
   "cmse.gov.cn": {
     "_name": "中国载人航天",
     "www": [
@@ -5871,6 +6002,18 @@
           "/*"
         ],
         "target": "/sichuan/deyang/govpulicinfo/:countyName"
+      }
+    ]
+  },
+  "gz.gov.cn": {
+    "_name": "广州市人民政府",
+    "www": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/government.html#guang-zhou-shi-ren-min-zheng-fu",
+        "source": [
+          "/:channel/:category"
+        ]
       }
     ]
   },
@@ -6141,6 +6284,18 @@
       }
     ]
   },
+  "sasac.gov.cn": {
+    "_name": "国务院国有资产监督管理委员会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/other.html#guo-wu-yuan-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/*path"
+        ]
+      }
+    ]
+  },
   "sh.gov.cn": {
     "_name": "上海市人民政府",
     "wsjkw": [
@@ -6262,6 +6417,43 @@
           "/gz/weatherAlarm/otherCity/"
         ],
         "target": "/gov/guangdong/tqyb/sncsyjxh"
+      }
+    ]
+  },
+  "www.gov.cn": {
+    "_name": "中国政府网",
+    ".": [
+      {
+        "title": "最新政策",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        "source": [
+          "/zhengce/zuixin.htm",
+          "/"
+        ],
+        "target": "/gov/zhengce/zuixin"
+      },
+      {
+        "title": "最新文件",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/zhengce/wenjian"
+      },
+      {
+        "title": "信息稿件",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/zhengce/govall"
+      },
+      {
+        "title": "国务院政策文件库",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        "source": [
+          "/zhengce/zhengceku/:lib"
+        ]
       }
     ]
   },
@@ -6388,6 +6580,19 @@
         "source": [
           "/cheaps.php"
         ]
+      }
+    ]
+  },
+  "guanhai.com.cn": {
+    "_name": "观海新闻",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media.html#guan-hai-xin-wen",
+        "source": [
+          "/"
+        ],
+        "target": "/guanhai"
       }
     ]
   },
@@ -9626,6 +9831,19 @@
       }
     ]
   },
+  "lang.live": {
+    "_name": "浪 Play 直播",
+    ".": [
+      {
+        "title": "直播间开播",
+        "docs": "https://docs.rsshub.app/live.html#lang-play-yuan-zhi-bo",
+        "source": [
+          "/room/:id"
+        ],
+        "target": "/lang/live/room/:id"
+      }
+    ]
+  },
   "lanqiao.cn": {
     "_name": "蓝桥云课",
     ".": [
@@ -11253,6 +11471,19 @@
       }
     ]
   },
+  "nautil.us": {
+    "_name": "Nautilus",
+    ".": [
+      {
+        "title": "Topics",
+        "docs": "https://docs.rsshub.app/en/new-media.html#nautilus",
+        "source": [
+          "/topics/:tid"
+        ],
+        "target": "/nautil/topic/:tid"
+      }
+    ]
+  },
   "nbd.com.cn": {
     "_name": "每经网",
     ".": [
@@ -12211,6 +12442,16 @@
         ],
         "target": "/nua/gra/:type"
       }
+    ],
+    "lib": [
+      {
+        "title": "图书馆",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-yi-shu-xue-yuan",
+        "source": [
+          "/:type/list.htm"
+        ],
+        "target": "/nua/lib/:type"
+      }
     ]
   },
   "nuaa.edu.cn": {
@@ -12327,26 +12568,22 @@
     "_name": "nyaa",
     ".": [
       {
-        "title": "搜索结果",
-        "docs": "https://docs.rsshub.app/multimedia.html#nyaa-sou-suo-jie-guo",
-        "source": "/"
-      },
-      {
-        "title": "用户",
-        "docs": "https://docs.rsshub.app/multimedia.html#nyaa-yong-hu",
-        "source": "/user/:username"
+        "title": "nyaa 的搜索结果、指定用户、指定用户的搜索结果",
+        "docs": "https://docs.rsshub.app/multimedia.html#nyaa",
+        "source": [
+          "/",
+          "/user/:username"
+        ]
       }
     ],
     "sukebei": [
       {
-        "title": "sukebei 搜索结果",
-        "docs": "https://docs.rsshub.app/multimedia.html#nyaa-sukebei-sou-suo-jie-guo",
-        "source": "/"
-      },
-      {
-        "title": "sukebei 用户",
-        "docs": "https://docs.rsshub.app/multimedia.html#nyaa-sukebei-yong-hu",
-        "source": "/user/:username"
+        "title": "sukebei 的搜索结果、指定用户、指定用户的搜索结果",
+        "docs": "https://docs.rsshub.app/multimedia.html#nyaa",
+        "source": [
+          "/",
+          "/user/:username"
+        ]
       }
     ]
   },
@@ -13551,6 +13788,19 @@
       }
     ]
   },
+  "researchgate.net": {
+    "_name": "ResearchGate",
+    ".": [
+      {
+        "title": "Publications",
+        "docs": "https://docs.rsshub.app/study.html#researchgate",
+        "source": [
+          "/profile/:username"
+        ],
+        "target": "/researchgate/publications/:username"
+      }
+    ]
+  },
   "reuters.com": {
     "_name": "路透社",
     ".": [
@@ -14170,6 +14420,39 @@
           "/"
         ],
         "target": "/shmeea/self-study"
+      }
+    ]
+  },
+  "shmtu.edu.cn": {
+    "_name": "上海海事大学",
+    "jwc": [
+      {
+        "title": "教务信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shmtu/jwc/:type"
+      }
+    ],
+    "portal": [
+      {
+        "title": "数字平台",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shmtu/portal/:type"
+      }
+    ],
+    "www": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shmtu/www/:type"
       }
     ]
   },
@@ -15517,10 +15800,10 @@
         "title": "The Verge",
         "docs": "https://docs.rsshub.app/new-media.html#the-verge",
         "source": [
-          "/rss/index.xml",
+          "/:hub",
           "/"
         ],
-        "target": "/theverge"
+        "target": "/theverge/:hub?"
       }
     ]
   },
@@ -15602,6 +15885,18 @@
           "/"
         ],
         "target": "/tingshuitz/nanjing"
+      }
+    ]
+  },
+  "supplywater.com": {
+    "_name": "停水通知",
+    "www": [
+      {
+        "title": "长沙市",
+        "docs": "https://docs.rsshub.app/forecast.html#ting-shui-tong-zhi",
+        "source": [
+          "/*"
+        ]
       }
     ]
   },
@@ -16317,6 +16612,15 @@
       }
     ]
   },
+  "usepanda.com": {
+    "_name": "Panda",
+    ".": [
+      {
+        "title": "Feeds",
+        "docs": "https://docs.rsshub.app/other.html#panda"
+      }
+    ]
+  },
   "ustb.edu.cn": {
     "_name": "北京科技大学",
     "gs": [
@@ -16405,6 +16709,19 @@
           "/xktz.htm"
         ],
         "target": "/wsts/jwch/xktz"
+      }
+    ]
+  },
+  "gixnetwork.org": {
+    "_name": "University of Washington",
+    ".": [
+      {
+        "title": "Global Innovation Exchange News",
+        "docs": "https://docs.rsshub.app/university.html#university-of-washington",
+        "source": [
+          "/news/:category"
+        ],
+        "target": "/uw/gix/news/:category"
       }
     ]
   },
@@ -16745,6 +17062,20 @@
         "source": [
           "/:id"
         ]
+      }
+    ]
+  },
+  "weibo.cn": {
+    "_name": "微博",
+    "m": [
+      {
+        "title": "博主",
+        "docs": "https://docs.rsshub.app/social-media.html#wei-bo",
+        "source": [
+          "/u/:uid",
+          "/profile/:uid"
+        ],
+        "target": "/weibo/user/:uid"
       }
     ]
   },
@@ -17476,6 +17807,14 @@
           "/co/article"
         ],
         "target": "/ymgal/article/column"
+      },
+      {
+        "title": "本月新作",
+        "docs": "https://docs.rsshub.app/anime.html#yue-mu-galgame",
+        "source": [
+          "/"
+        ],
+        "target": "/ymgal/game/release"
       }
     ]
   },
@@ -18182,20 +18521,6 @@
           "/:id",
           "/"
         ]
-      }
-    ]
-  },
-  "weibo.cn": {
-    "_name": "微博",
-    "m": [
-      {
-        "title": "博主",
-        "docs": "https://docs.rsshub.app/social-media.html#wei-bo",
-        "source": [
-          "/u/:uid",
-          "/profile/:uid"
-        ],
-        "target": "/weibo/user/:uid"
       }
     ]
   },
